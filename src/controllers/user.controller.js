@@ -1,9 +1,3 @@
-const getHello = async (req, res) => {
-  try {
-    return res.send("Hello User")
-  } catch (error) {
-    console.log(error)
-  }
-}
+import { User } from "../models/user.model.js"
 
-export { getHello }
+export {}
