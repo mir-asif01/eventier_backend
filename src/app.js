@@ -7,6 +7,4 @@ app.get("/", (req, res) => {
   res.send("App is running")
 })
 
-app.listen(port, () => {
-  console.log(`app is running on http://localhost:3001/`)
-})
+export { app }
